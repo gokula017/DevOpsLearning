@@ -1,0 +1,97 @@
+Why need to learn linux From CLI In Devops
+  - Industry Standard in Servers and Data Centers
+  - Open-Source and Customizable with cost efective 
+  - Control and Flexibility
+  - Security and Stability
+  - It’s Everywhere
+  - You’re Not Locked into One Vendor
+
+
+ - 
+  1 File Navigation and Management
+
+      cd :- Change directory.
+      ls :- List directory contents.
+      pwd :- Print working directory.
+      cp :- Copy files or directories.
+      mv :- Move or rename files and directories.
+      rm :- Remove files or directories.
+      touch :- Create an empty file.
+      mkdir :- Create a directory.
+
+  2  File Viewing and Editing
+
+    cat :- Concatenate and display file content.
+    less / more :- View content of a file (page by page).
+    head :- Display the first few lines of a file.
+    tail :- Display the last few lines of a file (commonly used with -f for real-time logs).
+    nano / vim / vi :- Command-line text editors for editing files.
+
+3 File Permissions
+
+    chmod :- Change file permissions (e.g., chmod +x script.sh to make a file executable).
+    chown :- Change file owner and group.
+    chgrp :- Change group ownership of a file or directory.
+    umask :- Set default permissions for new files.l
+
+4 Searching Files and Content
+
+    find :- Search for files and directories (find /path -name "*.txt").
+    grep :- Search for text within files (e.g., grep "error" logfile.log).
+    locate :- Find files by name (faster than find, but requires indexing).
+    which :- Locate a command or executable in the PATH.
+
+5 Process Management
+
+    ps :- Show processes running on the system.
+    top :- Display running processes dynamically.
+    htop :- Interactive process viewer (requires installation).
+    kill :- Terminate processes by PID (e.g., kill 1234).
+    killall :- Kill all processes by name (e.g., killall apache2).
+    bg / fg :- Move jobs to the background or foreground.
+    jobs :- List background jobs.
+
+6 Disk Usage and File System
+
+    df :- Show disk space usage for file systems.
+    du :- Estimate file space usage.
+    mount :- Mount file systems.
+    umount :- Unmount file systems.
+    lsblk :- List block devices (disks, partitions).
+    fdisk / parted :- Disk partitioning tools.
+
+7 Networking
+
+    ping :- Test network connectivity to a host.
+    ifconfig / ip a :- Display network interfaces (use ip on newer systems).
+    netstat / ss :- Show network connections, routing tables, and listening ports.
+    curl :- Transfer data from or to a server (commonly used for API testing).
+    wget :- Download files from the internet.
+    scp :- Securely copy files between hosts.
+    ssh :- Secure shell to log into remote machines (e.g., ssh user@hostname).
+    traceroute :- Trace the path packets take to a destination.
+
+8   Package Management (varies by distribution)
+
+    Debian/Ubuntu (APT):
+    apt-get / apt :- Install, update, and remove packages (e.g., apt install package-name).
+    dpkg :- Install, remove, or query .deb packages.
+
+9 Package Management (varies by distribution)
+
+    Debian/Ubuntu (APT):
+    apt-get / apt :- Install, update, and remove packages (e.g., apt install package-name).
+    dpkg :- Install, remove, or query .deb packages.
+    Red Hat/CentOS (YUM/DNF):
+    yum / dnf :- Install, update, and remove packages (e.g., yum install package-name).
+    Yast -- Suse Linux 
+
+10 System Services
+
+    systemctl :- Manage services on systemd-based systems (e.g., systemctl stop  apache2).
+    service :- Start/stop/restart services (used on older SysVinit systems).
+    chkconfig :- Enable/disable services to start at boot (on RedHat/CentOS).
+
+11 Cron Jobs and Automation
+
+    cron / crontab :- Schedule tasks to run at specified times (e.g., crontab -e to edit cron jobs).
